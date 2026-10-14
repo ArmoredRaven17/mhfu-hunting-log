@@ -243,7 +243,7 @@ def main(app_dir):
     theme = ["Teostra", "Rathalos", "Cephadrome", "Daimyo Hermitaur", "Tigrex", "Rajang",
              "Emerald Congalala", "Gendrome", "Green Plesioth", "Rathian", "Basarios",
              "Blue Yian Kut-Ku", "Azure Rathalos", "Kirin", "Shogun Ceanataur", "Plesioth",
-             "Black Diablos", "Velocidrome", "Purple Gypceros", "Lunastra", "Yian Garuga",
+             "Lunastra", "Velocidrome", "Purple Gypceros", "Plum Daimyo Hermitaur", "Yian Garuga",
              "Chameleos", "Pink Rathian", "Congalala", "Akantor", "Diablos", "Gravios",
              "Bulldrome", "Kushala Daora", "Silver Rathalos", "Question Mark"]
     for name in sorted({t for q in quests for t in q["Monsters"]} | set(theme) | {"Question Mark"}):
