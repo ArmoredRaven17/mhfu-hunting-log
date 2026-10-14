@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "mhfu-hunting-log",
+      "runtimeExecutable": "python",
+      "runtimeArgs": ["-m", "http.server", "5621", "--directory", "docs"],
+      "port": 5621
+    }
+  ]
+}
